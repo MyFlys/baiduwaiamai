@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,aAAK;EACH,KAAK,EAAC,OAAO;EACb,MAAM,EAAC,OAAO",
+"sources": ["catering.scss"],
+"names": [],
+"file": "catering.css"
+}
