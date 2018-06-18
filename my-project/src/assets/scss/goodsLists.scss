@@ -1,0 +1,162 @@
+.active{
+	z-index:2;
+	display: block;
+}
+.red{
+	color:#ff0101;
+}
+.tag{
+	display: inline-block;
+	color:#fc3854;
+	font-size:0.06rem;
+	border:1px solid #fc3854;
+	border-radius:0.01rem;
+	text-align: center;
+	padding:0.02rem;
+	height: 0.14rem;
+	line-height:0.14rem;
+	margin-right:0.05rem;
+}
+.bg{
+	display: inline-block;
+	width: 1px;
+	height: 0.1rem;
+	background:#c1c1c1 ;
+	margin:0 0.01rem;
+}
+body{
+	position:relative;
+	padding:0 0.15rem;
+	box-sizing:border-box;
+	.goodsListsHeader{
+		height: 0.4rem;
+		background: white;
+		border-bottom:1px solid #f1f1f1;
+		display:-webkit-flex;
+		align-items:center;
+		font-size: 0.13rem;
+		.headList{
+			font-size: 0.13rem;
+			display:-webkit-flex;
+			color:#4c4b4b;
+			li{
+				margin-right:0.1rem;
+				position: relative;
+
+			}
+			.icon-xiala{
+				margin-left:0.05rem;
+			}
+		}
+	}
+	.sortList{
+		font-size: 0.13rem;
+		position: absolute;
+		left:0;
+		top:0.4rem;
+		width: 100%;
+		background:#fff;
+		padding-left:0.25rem;
+		display: none;
+		li{
+			line-height:0.3rem;
+		}
+	}
+	.wraper{
+		width: 100%;
+		height: 100%;
+		position:absolute;
+		z-index: 1;
+		background: rgba(0,0,0,.5);
+		display: none;
+	}
+	.goodsListsSection{
+		flex:1;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		.shops{
+			.shopsLi{
+				padding-top: 0.15rem;
+				border-bottom: 1px solid #ebebeb;
+				img{
+					width: 0.4rem;
+					height: 0.4rem;
+					float:left;
+					margin-right: 0.1rem;
+				}
+				.shopTitle{
+					font-size: 0.15rem;
+					display: -webkit-flex;
+					align-items: center;
+					justify-content: space-between;
+					.special{
+						font-size: 0.08rem;
+						width: 0.28rem;
+						height: 0.15rem;
+						line-height: 0.15rem;
+						border-radius: 0.05rem;
+						background: orange;
+						color:#fff;
+						text-align:center;
+
+					}
+				}
+				.shopDetail{
+					font-size: 0.08rem;
+					display: -webkit-flex;
+					justify-content: space-between;
+					padding: 0.1rem 0;
+					.shopDetailL{
+						span{
+							em{
+								font-style: normal;
+							}
+						}
+					}
+					.shopDetailR{
+						display: -webkit-flex;
+						align-items: center;
+						span{
+							color:#c1c1c1;
+						}
+						.bg{
+							width: 1px;
+							height: 0.1rem;
+							background:#c1c1c1 ;
+							margin:0 0.1rem;
+						}
+					}
+				}
+				.tagLists{
+					display: -webkit-flex;
+					margin: 0 0 0.05rem 0.5rem;
+				}
+				.menuLists{
+					margin-left: 0.5rem;
+					li{
+						margin:0.2rem 0;
+						em{
+							font-style: normal;
+						}
+						img{
+							float:left;
+							width: 0.56rem;
+							height: 0.56rem;
+						}
+						h3{
+							font-size:0.15rem;
+						}
+						.menuDetail{
+							font-size: 0.1rem;
+
+						}
+						.menuPrice{
+							font-size: 0.2rem;
+						}
+					}
+
+				}
+			}
+		}
+	}
+}

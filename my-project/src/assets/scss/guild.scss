@@ -1,0 +1,264 @@
+%Title{
+	height: 0.31rem;
+	font-size:0.16rem;
+	background: white;
+	padding:0 0.11rem;
+	line-height: 0.31rem;
+}
+
+// body{
+// 	background: #e3e6ef;
+	i{
+    	display: block;
+    }
+	// header
+	.guildHeader{
+		// height: 4.27rem;
+
+		// ad block
+		// height: 3.5rem;
+
+		// ad none
+		height: 0.44rem;
+		// background: -webkit-linear-gradient(top,#e3e6ef,#f8f9fd,#f5f6fa,#f8f9fb,#fff);
+		.top{
+			height: 0.44rem;
+			background: white;
+			display: -webkit-flex;
+			justify-content: flex-end;
+			padding:0 0.16rem;
+			// ad block
+			// background:transparent;
+
+			// ad none
+			background: #fff;
+
+
+			.topRight{
+				width: 1.88rem;
+				display: -webkit-flex;
+				justify-content:space-between;
+	    		align-items:center;
+
+				h3{
+					font-size:0.17rem;
+					font-style: normal;
+				}
+				.topRightIcon{
+					display: -webkit-flex;
+					justify-content:space-between;
+		    		align-items:center;
+					a{
+						color:black;
+						.iconfont{
+							font-size:0.24rem;
+						}
+						.icon-rili{
+							margin-right:0.2rem;
+						}
+					}
+				}
+				
+			}	
+		}
+		.ad{
+			display: none;
+			.adImg{
+				height: 2.35rem;
+			}
+			.detail{
+				width: 3.55rem;
+				height: 1.43rem;
+				background: rgba(255,255,255,.8);
+				margin:0 auto;
+				border-radius: 0.1rem;
+				position: relative;
+				box-shadow: 5px 5px 10px #ccc;
+				.date{
+					width: 1.05rem;
+					height: 0.4rem;
+					background: #000;
+					border-radius:0.05rem;
+					position:absolute;
+					left:0.2rem;
+					top: -0.19rem;
+					display: -webkit-flex;
+					justify-content:space-around;
+		    		align-items:center;
+		    		color:#fff;
+		    		.day{
+		    			font-size:0.3rem;
+		    			font-weight:bold;
+		    		}
+		    		.bg{
+		    			width: 0.01rem;
+		    			height: 0.18rem;
+		    			background: #fff;
+		    		}
+		    		.yearMonth{
+		    			p{
+		    				font-size:0.1rem;
+		    			}
+		    		}
+
+				}
+				.detailTitle{
+					padding-top:0.2rem;
+					height: 0.45rem;
+				}
+				.detailCon{
+					font-size:0.14rem;
+					line-height:0.2rem;
+					color:#6e6e6e;
+					padding: 0 0.2rem ;
+				}
+				.detailUser{
+					padding: 0.05rem 0.2rem ;
+					display: -webkit-flex;
+					justify-content: space-between;
+					align-items:center;
+					.userLeft{
+						display: -webkit-flex;
+						.headImg{
+							width: 0.22rem;
+							height: 0.22rem;
+						}
+						.name{
+							font-size:0.1rem;
+							color:#5f5f5f;
+							padding-left:0.1rem;
+						}
+					}
+					.userRight{
+						a{
+							color:#e5e5e5;
+							.iconfont{
+								font-size:0.25rem;
+
+							}
+						}
+					}
+					
+				}
+			}
+		}
+		.headerTitle{
+			// height: 0.31rem;
+			// font-size:0.16rem;
+			// background: white;
+			// padding:0 0.11rem;
+			// line-height: 0.31rem;
+			// display: none;
+			@extend %Title;
+			display: none;
+		}	
+	}
+	// section
+	.guildSection{
+		flex:1;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		background: #fff;
+		padding: 0 0.1rem;
+		// ad block
+		// padding-top: 0.9rem;
+
+		// ad none 
+		padding-top:0;
+		.secTitle{
+			@extend %Title;
+		}
+		.goods{
+			.items{
+				// display: -webkit-flex;
+				margin-bottom: 0.2rem;
+				a{
+					color:#000;
+					img{
+						width: 1.3rem;
+						height: 0.85rem;
+						float:left;
+						margin-right:0.1rem;
+					}
+					span{
+						display: block;
+					}
+					.title{
+						font-size:0.15rem;
+						line-height: 0.24rem;
+						
+					}
+					.username{
+						font-size: 0.1rem;
+					}
+					.look{
+						font-size:0.1rem;
+						color:#999999;
+						display: -webkit-flex;
+					}
+				}
+				
+			}
+			.bItems{
+				margin-bottom:0.4rem;
+				a{
+					color:#000;
+					img{
+						width: 3.55rem;
+						height: 1.98rem;
+					}
+					.bItemsTitle{
+						font-size:0.16rem;
+						line-height:0.24rem;
+					}
+					.look{
+						display: -webkit-flex;
+						align-items:center;
+						.user{
+							font-size:0.1rem;
+							color:#000;
+							margin-right:0.15rem;
+						}
+						.iconfont{
+							font-size:0.1rem;
+							color:#999999;
+							
+						}
+						.lookNum{
+							font-size:0.05rem;
+							color:#999999;
+						}
+						
+					}
+				}
+				
+
+			}
+		}
+
+	}
+	//footer
+	.guildFooter{
+	    height: 0.49em;
+	    background: white;
+	    display: -webkit-flex;
+	    justify-content:space-around;
+	    align-items:center;
+	    a{
+	        text-align: center;
+	        color:#c1c1c1;
+	        
+	        .iconfont{
+	        	font-size: 0.24rem;
+	        }
+	        span{
+	            display: block;
+	            font-size: 0.09rem;
+	        }
+	    }
+	    .active{
+	    	color:#ff314f;
+	    }
+	}
+// }
+

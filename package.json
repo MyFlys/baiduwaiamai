@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "sass-resources-loader": "^1.3.3"
+  }
+}
