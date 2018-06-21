@@ -1,4 +1,4 @@
-const __baseDevUrl="http://localhost:8080";
+const __baseDevUrl="http://localhost:8081";
 const __onlineUrl="http://www.xxx.com"
 
-export const BDWMGUILDURL = `${__baseDevUrl}/api/guild`
+export const BDWMGUILDURL = `${__baseDevUrl}/api/guild`;

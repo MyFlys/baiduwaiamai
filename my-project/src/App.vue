@@ -1,12 +1,13 @@
 <template>
-  <my-app-guild></my-app-guild>
+  <!--<my-app-guild></my-app-guild>-->
+  <router-view></router-view>
+
 </template>
 
 <script>
-  import MyAppGuild from "./pages/MyAppGuild"
 export default {
   components:{
-    MyAppGuild
+    // MyAppGuild
   }
 }
 </script>

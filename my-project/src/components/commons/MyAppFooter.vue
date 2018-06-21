@@ -10,7 +10,7 @@
 
 <script>
     export default {
-        name: "MyAppFooter.vue"
+        name: "MyAppFooter"
     }
 </script>
 
@@ -28,6 +28,7 @@
       color:#c1c1c1;
 
       .iconfont{
+        display:block;
         font-size: 0.24rem;
       }
       span{

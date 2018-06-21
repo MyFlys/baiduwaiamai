@@ -44,7 +44,7 @@
 
 <script>
   export default {
-      name: "GuildHeader"
+      // name: "GuildHeader"
   }
 </script>
 
@@ -54,7 +54,7 @@
   }
   // header
   .guildHeader{
-    // height: 4.27rem;
+    /*height: 4.27rem;*/
 
     // ad block
     // height: 3.5rem;

@@ -1,9 +1,8 @@
 <template>
-  <div>
-    <guild-header></guild-header>
+  <div class="guildBody">
+    <guild-header :lists="articalList"></guild-header>
     <guild-artical-lists :lists="articalList"></guild-artical-lists>
     <my-app-footer></my-app-footer>
-
   </div>
 
 </template>
@@ -14,7 +13,6 @@
   import GuildHeader from "../components/guild/GuildHeader"
   import GuildArticalLists from "../components/guild/GuildArticalLists"
   export default {
-    name: "MyAppGuild.vue",
     components:{
       MyAppFooter,
       GuildHeader,
@@ -22,15 +20,15 @@
     },
     data(){
       return{
-        articalList:[]
+        articalList:{}
       }
     },
     methods:{
       __initPage(){
         GuildApis.getGuildArticalLists((data)=>{
-          console.log(data);
           this.articalList = data;
-          this.__counter(data)
+          console.log(this.articalList.GuildArticals
+          );
         })
       }
     },
@@ -41,9 +39,11 @@
 </script>
 
 <style scoped lang="scss">
-div{
+.guildBody{
   width: 100%;
+  height: 100%;
   box-sizing:border-box;
+  display:-webkit-flex;
+  flex-direction:column;
 }
-
 </style>

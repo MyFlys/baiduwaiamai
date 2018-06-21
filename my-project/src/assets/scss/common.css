@@ -14,8 +14,7 @@ body{
   width: 100%;
   font-family: "Microsoft Yahei", Arial;
   background: #fff;
-  display: -webkit-flex;
-  -webkit-flex-direction: column;
+
 }
 a{
   text-decoration: none;
