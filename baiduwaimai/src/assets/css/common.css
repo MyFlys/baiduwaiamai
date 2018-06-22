@@ -1,0 +1,26 @@
+/*css document*/
+body, div, p, ol, ul, li, dl, dt, dd, form, table, tr, td, hr, h1, h2, h3, h4, h5, h6, fieldset, img, input, figure {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 26.67vw; }
+
+html, body {
+  height: 100%; }
+
+body {
+  width: 100%;
+  font-family: "Microsoft Yahei", Arial;
+  background: #fff; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
