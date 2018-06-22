@@ -20,7 +20,8 @@
     },
     data(){
       return{
-        articalList:{}
+        articalList:{},
+        // imgIndex:""
       }
     },
     methods:{
@@ -30,7 +31,10 @@
           console.log(this.articalList.GuildArticals
           );
         })
-      }
+      },
+    },
+    mounted(){
+      // this.imgIndex = this.$route.params.id;
     },
     created(){
       this.__initPage();

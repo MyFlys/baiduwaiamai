@@ -5,7 +5,7 @@
 ">
         <guild-artical :item="p" v-for="p in obj.sArticals" ></guild-artical>
         <li class="bItems">
-          <a href="javascript:;">
+          <router-link :to="{name:'GuildBitem',params:{id:index}}">
             <img :src="obj.bArticals[0].bpic" alt="">
             <h3 class="bItemsTitle">{{obj.bArticals[0].btitle}}</h3>
             <span class="look">
@@ -13,7 +13,8 @@
                 <i class="iconfont icon-chakan-copy"></i>
                 <span class="lookNum">{{obj.bArticals[0].bseeNum}}</span>
               </span>
-          </a>
+          </router-link>
+
         </li>
     </ul>
   </div>
@@ -30,9 +31,13 @@
           default:{}
         }
       },
+      methods:{
+        __show(){}
+      },
       components:{
         GuildArtical
       },
+
     }
 </script>
 

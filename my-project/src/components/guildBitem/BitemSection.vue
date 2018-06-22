@@ -1,27 +1,44 @@
 <template>
-  <div class="bItemsSection">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" v-for="item in lists.GuildSwiper">
-          <img :src="item.pic" alt="">
-          <div class="imgIntro">
-            <p>{{item.title}}</p>
-          </div>
+  <router-link to="/guild" >
+    <div class="bItemsSection">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="(item,index) in lists[indexitem]">
+              <img :src="item.pic" alt="">
+              <div class="imgIntro">
+                <p>{{item.title}}</p>
+              </div>
+            </div>
         </div>
       </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
   import Swiper from 'swiper';
     export default {
       name: "BitemSection",
-      props:{
-        lists:{
-          type:Object,
-          default:{}
-        }
+      // data(){
+      //   return {
+      //     index:"",
+      //     listss:{}
+      //   }
+      // },
+      mounted(){
+       // this.cahnge();
+      },
+      props:["lists","indexitem"],
+      methods:{
+        // cahnge(){
+        //   console.log(this.inexitem)
+        //   if(this.indexitem == "one"){
+        //     this.$set(this.listss,{},this.lists.one);
+        //   }else{
+        //     this.listss = this.lists.two;
+        //   }
+        //   // console.log(this.listss+"sssss");
+        // }
       },
       updated(){
         var mySwiper = new Swiper ('.swiper-container', {

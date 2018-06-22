@@ -1,13 +1,15 @@
 <template>
-    <li class="items  item-thumbnail-left">
+    <li class="items ">
+      <!--<router-link to="/bitem">-->
       <a href="javascript:;">
-        <img :src="item.pic" alt="">
+        <img :src="item.pic" alt="" >
         <h3 class="title">{{item.title}}</h3>
         <span class="username">{{item.username}}</span>
         <span class="look">
         <i class="iconfont icon-chakan-copy">{{item.seeNum}}</i>
       </span>
       </a>
+      <!--</router-link>-->
     </li>
 </template>
 
@@ -18,6 +20,16 @@
         item:{
           default:[]
         }
+      },
+      methods:{
+        // __test(){console.log($('.title'))}
+        // __show(){
+        //
+        // }
+      },
+      created(){
+        // this.__test()
+        // this.__show()
       }
     }
 </script>
