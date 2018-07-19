@@ -5,13 +5,13 @@
       <div class="topRight">
         <h3>指南</h3>
         <div class="topRightIcon">
-          <a href="javascript:;" ><i class="iconfont icon-rili"></i></a>
+          <a href="javascript:;" ><i class="iconfont icon-rili" @click="__show"></i></a>
           <a href="javascript:;" ><i class="iconfont icon-klmshoucang"></i></a>
         </div>
       </div>
     </div>
     <div class="ad">
-      <img src="img/guild-zhaji.jpg" alt="" class="adImg">
+      <img src="../../../static/img/guild-zhaji.jpg" alt="" class="adImg">
       <div class="detail">
         <div class="date">
           <p class="day">14</p>
@@ -27,7 +27,7 @@
         </p>
         <div class="detailUser">
           <div class="userLeft">
-            <img src="img/guild-head.jpg" alt="" class="headImg">
+            <img src="../../../static/img/guild-head.jpg" alt="" class="headImg">
             <div class="name">眼角笑意</div>
           </div>
           <div class="userRight">
@@ -45,6 +45,48 @@
 <script>
   export default {
       // name: "GuildHeader"
+    methods:{
+      __xiaoshi(){
+        var scrollFunc = function (e) {
+          e = e || window.event;
+          if (e.wheelDelta) {  //第一步：先判断浏览器IE，谷歌滑轮事件
+            if (e.wheelDelta > 0) { //当滑轮向上滚动时
+              // console.log("滑轮向上滚动");
+              // console.log($('.ad'))
+              // $('.ad').css('display',"none")
+            }
+            if (e.wheelDelta < 0) { //当滑轮向下滚动时
+              // console.log("滑轮向下滚动");
+              $('.ad').css('display',"none")
+              $('.guildHeader').css('height',"0.44rem")
+            }
+          } else if (e.detail) {  //Firefox滑轮事件
+            if (e.detail> 0) { //当滑轮向上滚动时
+              // console.log("滑轮向上滚动");
+
+            }
+            if (e.detail< 0) { //当滑轮向下滚动时
+              // console.log("滑轮向下滚动");
+              $('.ad').css('display',"none")
+              $('.guildHeader').css('height',"0.44rem")
+            }
+          }
+        }
+        //给页面绑定滑轮滚动事件
+        if (document.addEventListener) {//firefox
+          document.addEventListener('DOMMouseScroll', scrollFunc, false);
+        }
+        //滚动滑轮触发scrollFunc方法  //ie 谷歌
+        window.onmousewheel = document.onmousewheel = scrollFunc;
+      },
+      __show(){
+        $('.ad').css('display',"block")
+        $('.guildHeader').css('height',"3.6rem")
+      }
+    },
+    mounted(){
+      this.__xiaoshi()
+    }
   }
 </script>
 
@@ -57,11 +99,10 @@
     /*height: 4.27rem;*/
 
     // ad block
-    // height: 3.5rem;
+    height: 3.6rem;
 
     // ad none
-    height: 0.44rem;
-    // background: -webkit-linear-gradient(top,#e3e6ef,#f8f9fd,#f5f6fa,#f8f9fb,#fff);
+    /*height: 0.44rem;*/
     .top{
       height: 0.44rem;
       background: white;
@@ -103,8 +144,10 @@
       }
     }
     .ad{
-      display: none;
+      /*display: none;*/
+      position:relative;
       .adImg{
+        width: 100%;
         height: 2.35rem;
       }
       .detail{
@@ -113,7 +156,9 @@
         background: rgba(255,255,255,.8);
         margin:0 auto;
         border-radius: 0.1rem;
-        position: relative;
+        position: absolute;
+        left:0.1rem;
+        top:1.7rem;
         box-shadow: 5px 5px 10px #ccc;
         .date{
           width: 1.05rem;

@@ -1,0 +1,283 @@
+{
+  "lager":[
+    {
+      "date": [
+        {
+          "img": "./static/img/c-rank1.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank2.jpg",
+          "title": "西安麦当劳高新万达餐厅",
+          "brand": "",
+          "sales": " 5 | 月售 68",
+          "qisong": "起送￥0 | 配送￥9",
+          "time": "30分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10",
+            "满28减15",
+            "满48减30"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank3.jpg",
+          "title": "必胜客宅急送 （高新路店）",
+          "brand": "",
+          "sales": "4.7 | 月售 168",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "试试108人点赞的意式肉卤面",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank4.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank5.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank6.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        }
+      ],
+      "img":[
+        {
+          "src": "./static/img/c-rankimg1.jpg"
+        }
+      ]
+    },
+    {
+      "date": [
+        {
+          "img": "./static/img/c-rank2.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank3.jpg",
+          "title": "西安麦当劳高新万达餐厅",
+          "brand": "",
+          "sales": " 5 | 月售 68",
+          "qisong": "起送￥0 | 配送￥9",
+          "time": "30分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank1.jpg",
+          "title": "必胜客宅急送 （高新路店）",
+          "brand": "",
+          "sales": "4.7 | 月售 168",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "试试108人点赞的意式肉卤面",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank4.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank5.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank6.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        }
+      ],
+      "img":[
+        {
+          "src": "./static/img/c-rankimg1.jpg"
+        }
+      ]
+    },
+    {
+      "date": [
+        {
+          "img": "./static/img/c-rank1.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank2.jpg",
+          "title": "西安麦当劳高新万达餐厅",
+          "brand": "",
+          "sales": " 5 | 月售 68",
+          "qisong": "起送￥0 | 配送￥9",
+          "time": "30分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank3.jpg",
+          "title": "必胜客宅急送 （高新路店）",
+          "brand": "",
+          "sales": "4.7 | 月售 168",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "试试108人点赞的意式肉卤面",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank4.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank5.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        },
+        {
+          "img": "./static/img/c-rank6.jpg",
+          "title": "肯德基宅急送 （唐兴路店）",
+          "brand": "品牌",
+          "sales": "4.8 | 月售 22",
+          "qisong": "起送￥0 |  配送￥9",
+          "time": "40分钟 |  1.6km",
+          "dianzan": "",
+          "tejia": [
+            "特价",
+            "满15减10"
+          ],
+          "fapiao": "发票"
+        }
+      ],
+      "img":[
+        {
+          "src": "./static/img/c-rankimg1.jpg"
+        }
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,9 @@
+[
+  {"img":"./static/img/c-sp1.jpg","title":"全熟豪华单人餐","jieshao":"1-2人 （25粒）","price":"120"},
+  {"img":"./static/img/c-sp2.jpg","title":"双人冒菜（素菜1000克 14元）","jieshao":"素菜700克 荤菜200克","price":"149"},
+  {"img":"./static/img/c-sp1.jpg","title":"双人冒菜（素菜1000克 14元）","jieshao":"素菜700克 荤菜200克","price":"149"},
+  {"img":"./static/img/c-sp2.jpg","title":"双人冒菜（素菜1000克 14元）","jieshao":"素菜700克 荤菜200克","price":"149"},
+  {"img":"./static/img/c-sp1.jpg","title":"双人冒菜（素菜1000克 14元）","jieshao":"素菜700克 荤菜200克","price":"149"},
+  {"img":"./static/img/c-sp2.jpg","title":"双人冒菜（素菜1000克 14元）","jieshao":"素菜700克 荤菜200克","price":"149"}
+
+]

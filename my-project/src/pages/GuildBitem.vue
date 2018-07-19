@@ -1,7 +1,7 @@
 <template>
   <div class="bitemBody">
     <bitem-header></bitem-header>
-    <bitem-section :lists="imgList.GuildSwiper" :indexitem="imgIndex"></bitem-section>
+    <bitem-section :lists="imgList"></bitem-section>
     <bitem-footer></bitem-footer>
   </div>
 
@@ -23,31 +23,22 @@
     },
     data(){
       return{
-        imgList:{},
-        imgIndex:""
+        imgList:{}
+        // imgIndex:""
       }
     },
     methods:{
-      checked(){
-        if(this.$route.params.id ==0){
-          this.imgIndex = "one"
-
-        }else{
-          this.imgIndex = "two"
-        }
-        console.log(this.imgIndex);
-      },
       __initPage(){
-        GuildApis.getGuildArticalLists((data)=>{
+        GuildApis.getGuildSwiperLists( this.$route.query.id ,(data)=>{
           // this.imgList = data[this.imgIndex];
           this.imgList = data;
 
-          console.log(this.imgList.GuildSwiper);
+          console.log(this.imgList);
         })
       }
     },
     mounted(){
-      this.checked();
+      // this.checked();
     },
     created(){
       this.__initPage();

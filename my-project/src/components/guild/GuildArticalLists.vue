@@ -1,11 +1,10 @@
 <template>
   <div class="guildSection">
     <h3 class="secTitle">推荐文章</h3>
-    <ul class="goods"  v-for="(obj,index) in lists.GuildArticals
-">
+    <ul class="goods"  v-for="(obj,index) in lists.GuildArticals">
         <guild-artical :item="p" v-for="p in obj.sArticals" ></guild-artical>
         <li class="bItems">
-          <router-link :to="{name:'GuildBitem',params:{id:index}}">
+          <router-link :to="{name:'GuildBitem',query:{id:obj.bArticals[0].id}}">
             <img :src="obj.bArticals[0].bpic" alt="">
             <h3 class="bItemsTitle">{{obj.bArticals[0].btitle}}</h3>
             <span class="look">
@@ -36,7 +35,7 @@
       },
       components:{
         GuildArtical
-      },
+      }
 
     }
 </script>

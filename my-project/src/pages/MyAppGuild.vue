@@ -28,16 +28,17 @@
       __initPage(){
         GuildApis.getGuildArticalLists((data)=>{
           this.articalList = data;
-          console.log(this.articalList.GuildArticals
-          );
+          // console.log(this.articalList.GuildArticals[0].bArticals[0].id);
         })
       },
+
+
     },
     mounted(){
-      // this.imgIndex = this.$route.params.id;
     },
     created(){
       this.__initPage();
+      // window.addEventListener('scroll', this.handleScroll);
     }
   }
 </script>

@@ -1,0 +1,32 @@
+[
+    {
+        "img": "./static/img/1.28.jpg",
+        "title": "南京十里香卤肉凉菜店",
+        "star": "./static/img/star.jpg",
+        "score": "4.7",
+        "sales": "27",
+        "times": "30分钟",
+        "consume": "￥20",
+        "space": "1.5km"
+    },
+    {
+        "img": "./static/img/1.29.jpg",
+        "title": "喵喵烤肉店（高新店）",
+        "star": "./static/img/star.jpg",
+        "score": "4.5",
+        "sales": "262",
+        "times": "40分钟",
+        "consume": "￥68",
+        "space": "1.8km"
+    },
+    {
+        "img": "./static/img/1.30.jpg",
+        "title": "小竹签烤肉纸包鱼",
+        "star": "./static/img/star.jpg",
+        "score": "4.8",
+        "sales": "55",
+        "times": "47分钟",
+        "consume": "￥52",
+        "space": "2.0km"
+    }
+]

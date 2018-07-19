@@ -1,0 +1,42 @@
+[
+    {
+        "img": "./static/img/1.27.jpg",
+        "title": "河风精致寿司（大唐西路店）",
+        "star": "./static/img/star.jpg",
+        "score": "4.8",
+        "sales": "104",
+        "times": "45分钟",
+        "consume": "￥40",
+        "space": "4.2km"
+    },
+    {
+        "img":"./static/img/1.24.jpg",
+        "title":"肯德基宅急送（唐兴店）",
+        "star":"./static/img/star.jpg",
+        "score":"4.8",
+        "sales":"58",
+        "times":"40分钟",
+        "consume":"￥58",
+        "space":"1.8km"
+    },
+    {
+        "img": "./static/img/1.25.jpg",
+        "title": "西安麦当劳高新万达餐厅",
+        "star": "./static/img/star.jpg",
+        "score": "4.8",
+        "sales": "55",
+        "times": "47分钟",
+        "consume": "￥52",
+        "space": "2.0km"
+    },
+    {
+        "img": "./static/img/1.26.jpg",
+        "title": "必胜客宅急送（高新店）",
+        "star": "./static/img/star.jpg",
+        "score": "4.9",
+        "sales": "50",
+        "times": "45分钟",
+        "consume": "￥55",
+        "space": "1.9km"
+    }
+]

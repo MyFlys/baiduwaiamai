@@ -3,7 +3,7 @@
     <div class="bItemsSection">
       <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" v-for="(item,index) in lists[indexitem]">
+            <div class="swiper-slide" v-for="(item,index) in lists.guildSwiper" key="index">
               <img :src="item.pic" alt="">
               <div class="imgIntro">
                 <p>{{item.title}}</p>
@@ -19,34 +19,13 @@
   import Swiper from 'swiper';
     export default {
       name: "BitemSection",
-      // data(){
-      //   return {
-      //     index:"",
-      //     listss:{}
-      //   }
-      // },
-      mounted(){
-       // this.cahnge();
-      },
-      props:["lists","indexitem"],
+      props:["lists"],
       methods:{
-        // cahnge(){
-        //   console.log(this.inexitem)
-        //   if(this.indexitem == "one"){
-        //     this.$set(this.listss,{},this.lists.one);
-        //   }else{
-        //     this.listss = this.lists.two;
-        //   }
-        //   // console.log(this.listss+"sssss");
-        // }
+
       },
       updated(){
         var mySwiper = new Swiper ('.swiper-container', {
 
-          // 如果需要分页器
-          // pagination: {
-          //   el: '.swiper-pagination',
-          // }
         })
       }
     }
@@ -56,7 +35,6 @@
 
   // section
   .bItemsSection{
-  // padding:0.15rem;
   .swiper-container{
   .swiper-wrapper{
   .swiper-slide{

@@ -2,8 +2,8 @@
   <div class="bItemsHeader">
     <div class="headTop">
       <div class="headLeft">
-        <a href="javascript:;"><i class="iconfont icon-flow"></i></a>
-        <span class="pages">1/6</span>
+        <router-link to="/guild"><i class="iconfont icon-flow"></i></router-link>
+        <span class="pages"></span>
       </div>
     </div>
 
@@ -29,6 +29,7 @@
       //     default:{}
       //   }
       // },
+
     }
 </script>
 

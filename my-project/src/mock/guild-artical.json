@@ -14,7 +14,7 @@
         {"title":"吃完这顿饭，我想辞职了！","username":"北京美食攻略","pic":"./static/img/guild-list10.jpg","seeNum":560}
       ],
       "bArticals":[
-        {"btitle":"担仔面搭配鸭血粉干，福州单身狗的日常了解一下~","busername":"星月童话游世界","bpic":"./static/img/guild-blist01.jpg","bseeNum":976}
+        {"id":"01","btitle":"担仔面搭配鸭血粉干，福州单身狗的日常了解一下~","busername":"星月童话游世界","bpic":"./static/img/guild-blist01.jpg","bseeNum":976}
       ]
     },
     {
@@ -31,7 +31,7 @@
         {"title":"这才叫烤肉啊！雪花牛肉牛肋条烤牛舌黑猪五花太过...","username":"北京美食攻略","pic":"./static/img/guild-list20.jpg","seeNum":699}
       ],
       "bArticals":[
-        {"btitle":"大吉大利，今晚吃鱼。什么？老板力荐的鱼头泡饼你都不知道？","busername":"百度外卖","bpic":"./static/img/guild-blist02.jpg","bseeNum":976}
+        {"id":"02","btitle":"大吉大利，今晚吃鱼。什么？老板力荐的鱼头泡饼你都不知道？","busername":"百度外卖","bpic":"./static/img/guild-blist02.jpg","bseeNum":976}
       ]
     },
     {
@@ -48,26 +48,9 @@
         {"title":"吃完这顿饭，我想辞职了！","username":"北京美食攻略","pic":"./static/img/guild-list10.jpg","seeNum":560}
       ],
       "bArticals":[
-        {"btitle":"担仔面搭配鸭血粉干，福州单身狗的日常了解一下~","busername":"星月童话游世界","bpic":"./static/img/guild-blist01.jpg","bseeNum":976}
+        {"id":"03","btitle":"担仔面搭配鸭血粉干，福州单身狗的日常了解一下~","busername":"星月童话游世界","bpic":"./static/img/guild-blist01.jpg","bseeNum":976}
       ]
     }
-  ],
-  "GuildSwiper":{
-    "one":[
-    {"title":"日常的时候一个人吃饭总是超级苦恼~特别不好点，多了又浪费，少了又觉得意犹未尽，一个人吃饭的小小烦恼。","pic":"./static/img/bItems-swiperImg01.jpg"},
-    {"title":"平时工作日就经常吃的都是一些简餐，想换换口味的时候，也是面食最方便了。所以这家担仔面真的很能满足我的需要，分量也正好适合一个人吃到饱。","pic":"./static/img/bItems-swiperImg02.jpg"},
-    {"title":"粉干是福建人日常会吃的选择之一了！避免还喜欢这家的粉干选项有好多种，比如牛肉的，大肠的等等~鸭血很嫩，萝卜很脆，其他生鲜食材也很新鲜。","pic":"./static/img/bItems-swiperImg03.jpg"},
-    {"title":"有一些人胃不好的，可能很怕迟到太硬的粉干，但是这家的粉干煮得软硬适中，既很有嚼劲，又不会太过软烂。里面还可以 依据自己的喜欢加很多料，比如猪肝、白萝卜、花蛤......","pic":"./static/img/bItems-swiperImg04.jpg"},
-    {"title":"食材都很新鲜，而且每一个加料都不贵，满20减16，吃到撑也不会钱包痛！","pic":"./static/img/bItems-swiperImg05.jpg"},
-    {"title":"百度全程采用达达配送，在规定的范围内送到了。来的也很快。配送中也没有任何汤汁洒出来。","pic":"./static/img/bItems-swiperImg06.jpg"}
-    ],
-    "two":[
-      {"title":"111日常的时候一个人吃饭总是超级苦恼~特别不好点，多了又浪费，少了又觉得意犹未尽，一个人吃饭的小小烦恼。","pic":"./static/img/bItems-swiperImg01.jpg"},
-      {"title":"111平时工作日就经常吃的都是一些简餐，想换换口味的时候，也是面食最方便了。所以这家担仔面真的很能满足我的需要，分量也正好适合一个人吃到饱。","pic":"./static/img/bItems-swiperImg02.jpg"},
-      {"title":"111粉干是福建人日常会吃的选择之一了！避免还喜欢这家的粉干选项有好多种，比如牛肉的，大肠的等等~鸭血很嫩，萝卜很脆，其他生鲜食材也很新鲜。","pic":"./static/img/bItems-swiperImg03.jpg"},
-      {"title":"111有一些人胃不好的，可能很怕迟到太硬的粉干，但是这家的粉干煮得软硬适中，既很有嚼劲，又不会太过软烂。里面还可以 依据自己的喜欢加很多料，比如猪肝、白萝卜、花蛤......","pic":"./static/img/bItems-swiperImg04.jpg"},
-      {"title":"111食材都很新鲜，而且每一个加料都不贵，满20减16，吃到撑也不会钱包痛！","pic":"./static/img/bItems-swiperImg05.jpg"},
-      {"title":"111百度全程采用达达配送，在规定的范围内送到了。来的也很快。配送中也没有任何汤汁洒出来。","pic":"./static/img/bItems-swiperImg06.jpg"}
-    ]
-    }
+  ]
+
 }

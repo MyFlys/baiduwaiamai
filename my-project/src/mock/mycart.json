@@ -1,0 +1,53 @@
+
+{
+  "cartsChecked":true,
+  "totalmin":0,
+  "shops":[
+    {
+      "shopChecked":true,
+      "shopName":"河风精致寿司(大唐西市店)",
+      "packing":"6",
+      "goods":[
+        {
+          "goodChecked":true,
+          "pic":"./static/img/cart-hefeng01.png",
+          "title":"全熟豪华单人餐",
+          "price":"120",
+          "qul":1
+        },
+        {
+          "goodChecked":true,
+          "pic":"./static/img/cart-hefeng02.png",
+          "title":"全熟豪华双人餐",
+          "price":"148",
+          "qul":1
+        }
+      ],
+      "minsum":0
+    },
+    {
+      "shopChecked":true,
+      "shopName":"成都美食(王家巷店)",
+      "packing":"3",
+      "goods":[
+        {
+          "goodChecked":true,
+          "pic":"./static/img/cart-chengdu01.png",
+          "title":"鱼香肉丝",
+          "price":"29",
+          "qul":1
+        },
+        {
+          "goodChecked":true,
+          "pic":"./static/img/cart-chengdu02.png",
+          "title":"宫保鸡丁",
+          "price":"29",
+          "qul":1
+        }
+      ],
+      "minsum":0
+    }
+  ]
+}
+
+
